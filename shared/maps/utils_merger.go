@@ -3,9 +3,9 @@ package maps
 import (
 	"fmt"
 
-	"github.com/kamontat/fthelper/shared/datatype"
-	"github.com/kamontat/fthelper/shared/loggers"
-	"github.com/kamontat/fthelper/shared/utils"
+	"github.com/n0rmanc/fthelper/shared/datatype"
+	"github.com/n0rmanc/fthelper/shared/loggers"
+	"github.com/n0rmanc/fthelper/shared/utils"
 )
 
 var avoid = []string{"$schema", "#comment#"}

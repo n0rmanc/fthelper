@@ -4,7 +4,7 @@ import (
 	"os"
 	"strings"
 
-	"github.com/kamontat/fthelper/shared/fs"
+	"github.com/n0rmanc/fthelper/shared/fs"
 )
 
 func loadFile(file fs.FileSystem, overload bool) error {

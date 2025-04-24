@@ -4,8 +4,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/kamontat/fthelper/shared/caches"
-	"github.com/kamontat/fthelper/shared/xtests"
+	"github.com/n0rmanc/fthelper/shared/caches"
+	"github.com/n0rmanc/fthelper/shared/xtests"
 )
 
 func TestConstantCacheData(t *testing.T) {

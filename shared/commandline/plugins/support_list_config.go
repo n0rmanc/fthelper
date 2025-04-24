@@ -5,11 +5,11 @@ import (
 	"sort"
 	"strings"
 
-	"github.com/kamontat/fthelper/shared/commandline/commands"
-	"github.com/kamontat/fthelper/shared/commandline/flags"
-	"github.com/kamontat/fthelper/shared/configs"
-	"github.com/kamontat/fthelper/shared/loggers"
-	"github.com/kamontat/fthelper/shared/maps"
+	"github.com/n0rmanc/fthelper/shared/commandline/commands"
+	"github.com/n0rmanc/fthelper/shared/commandline/flags"
+	"github.com/n0rmanc/fthelper/shared/configs"
+	"github.com/n0rmanc/fthelper/shared/loggers"
+	"github.com/n0rmanc/fthelper/shared/maps"
 )
 
 func SupportListConfig(p *PluginParameter) error {

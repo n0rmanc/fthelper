@@ -1,10 +1,10 @@
 package commands
 
 import (
-	"github.com/kamontat/fthelper/shared/caches"
-	"github.com/kamontat/fthelper/shared/commandline/models"
-	"github.com/kamontat/fthelper/shared/loggers"
-	"github.com/kamontat/fthelper/shared/maps"
+	"github.com/n0rmanc/fthelper/shared/caches"
+	"github.com/n0rmanc/fthelper/shared/commandline/models"
+	"github.com/n0rmanc/fthelper/shared/loggers"
+	"github.com/n0rmanc/fthelper/shared/maps"
 )
 
 type ExecutorParameter struct {

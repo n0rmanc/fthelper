@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/kamontat/fthelper/shared/datatype"
-	"github.com/kamontat/fthelper/shared/xtests"
+	"github.com/n0rmanc/fthelper/shared/datatype"
+	"github.com/n0rmanc/fthelper/shared/xtests"
 )
 
 func TestToString(t *testing.T) {

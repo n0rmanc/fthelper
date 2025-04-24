@@ -3,9 +3,9 @@ package xtemplates_test
 import (
 	"testing"
 
-	"github.com/kamontat/fthelper/shared/maps"
-	"github.com/kamontat/fthelper/shared/xtemplates"
-	"github.com/kamontat/fthelper/shared/xtests"
+	"github.com/n0rmanc/fthelper/shared/maps"
+	"github.com/n0rmanc/fthelper/shared/xtemplates"
+	"github.com/n0rmanc/fthelper/shared/xtests"
 )
 
 func TestRatio(t *testing.T) {

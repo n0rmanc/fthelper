@@ -3,10 +3,10 @@ package metrics
 import (
 	"fmt"
 
-	"github.com/kamontat/fthelper/metric/v4/src/collectors"
-	"github.com/kamontat/fthelper/metric/v4/src/connection"
-	"github.com/kamontat/fthelper/metric/v4/src/freqtrade"
-	"github.com/kamontat/fthelper/shared/commandline/commands"
+	"github.com/n0rmanc/fthelper/metric/v4/src/collectors"
+	"github.com/n0rmanc/fthelper/metric/v4/src/connection"
+	"github.com/n0rmanc/fthelper/metric/v4/src/freqtrade"
+	"github.com/n0rmanc/fthelper/shared/commandline/commands"
 	"github.com/prometheus/client_golang/prometheus"
 )
 

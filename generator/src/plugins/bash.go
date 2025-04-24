@@ -5,10 +5,10 @@ import (
 	"os"
 	"os/exec"
 
-	"github.com/kamontat/fthelper/generator/v4/src/clusters"
-	"github.com/kamontat/fthelper/shared/fs"
-	"github.com/kamontat/fthelper/shared/maps"
-	"github.com/kamontat/fthelper/shared/runners"
+	"github.com/n0rmanc/fthelper/generator/v4/src/clusters"
+	"github.com/n0rmanc/fthelper/shared/fs"
+	"github.com/n0rmanc/fthelper/shared/maps"
+	"github.com/n0rmanc/fthelper/shared/runners"
 )
 
 func Bash(data maps.Mapper, config maps.Mapper) *runners.Runner {

@@ -4,9 +4,9 @@ import (
 	"fmt"
 	"sync"
 
-	"github.com/kamontat/fthelper/shared/errors"
-	"github.com/kamontat/fthelper/shared/loggers"
-	"github.com/kamontat/fthelper/shared/maps"
+	"github.com/n0rmanc/fthelper/shared/errors"
+	"github.com/n0rmanc/fthelper/shared/loggers"
+	"github.com/n0rmanc/fthelper/shared/maps"
 )
 
 type Service struct {

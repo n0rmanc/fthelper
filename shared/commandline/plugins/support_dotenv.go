@@ -4,11 +4,11 @@ import (
 	"os"
 	"path"
 
-	"github.com/kamontat/fthelper/shared/commandline/flags"
-	"github.com/kamontat/fthelper/shared/commandline/hooks"
-	"github.com/kamontat/fthelper/shared/dotenv"
-	"github.com/kamontat/fthelper/shared/fs"
-	"github.com/kamontat/fthelper/shared/maps"
+	"github.com/n0rmanc/fthelper/shared/commandline/flags"
+	"github.com/n0rmanc/fthelper/shared/commandline/hooks"
+	"github.com/n0rmanc/fthelper/shared/dotenv"
+	"github.com/n0rmanc/fthelper/shared/fs"
+	"github.com/n0rmanc/fthelper/shared/maps"
 )
 
 // SupportDotEnv will create --envs option for custom load .env files

@@ -3,7 +3,7 @@ package flags
 import (
 	"flag"
 
-	"github.com/kamontat/fthelper/shared/maps"
+	"github.com/n0rmanc/fthelper/shared/maps"
 )
 
 type Flag interface {

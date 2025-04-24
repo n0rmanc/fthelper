@@ -3,8 +3,8 @@ package configs_test
 import (
 	"testing"
 
-	"github.com/kamontat/fthelper/shared/configs"
-	"github.com/kamontat/fthelper/shared/xtests"
+	"github.com/n0rmanc/fthelper/shared/configs"
+	"github.com/n0rmanc/fthelper/shared/xtests"
 )
 
 func TestIsEnvKey(t *testing.T) {

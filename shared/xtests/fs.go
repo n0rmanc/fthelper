@@ -4,7 +4,7 @@ import (
 	"os"
 	"strings"
 
-	"github.com/kamontat/fthelper/shared/fs"
+	"github.com/n0rmanc/fthelper/shared/fs"
 )
 
 type FsTest struct {

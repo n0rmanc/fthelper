@@ -3,9 +3,9 @@ package generators
 import (
 	"fmt"
 
-	"github.com/kamontat/fthelper/generator/v4/src/plugins"
-	"github.com/kamontat/fthelper/shared/maps"
-	"github.com/kamontat/fthelper/shared/runners"
+	"github.com/n0rmanc/fthelper/generator/v4/src/plugins"
+	"github.com/n0rmanc/fthelper/shared/maps"
+	"github.com/n0rmanc/fthelper/shared/runners"
 )
 
 func GetRunner(data maps.Mapper, config maps.Mapper) (*runners.Runner, error) {

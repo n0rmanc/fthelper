@@ -6,7 +6,7 @@ import (
 	"os"
 	"path"
 
-	"github.com/kamontat/fthelper/shared/utils"
+	"github.com/n0rmanc/fthelper/shared/utils"
 )
 
 type file struct {

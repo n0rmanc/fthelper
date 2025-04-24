@@ -1,9 +1,9 @@
 package freqtrade
 
 import (
-	"github.com/kamontat/fthelper/metric/v4/src/connection"
-	"github.com/kamontat/fthelper/shared/datatype"
-	"github.com/kamontat/fthelper/shared/maps"
+	"github.com/n0rmanc/fthelper/metric/v4/src/connection"
+	"github.com/n0rmanc/fthelper/shared/datatype"
+	"github.com/n0rmanc/fthelper/shared/maps"
 )
 
 const VERSION_CONST = "version"

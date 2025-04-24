@@ -4,13 +4,13 @@ import (
 	"context"
 	"time"
 
-	"github.com/kamontat/fthelper/metric/v4/src/aggregators"
-	"github.com/kamontat/fthelper/metric/v4/src/connection"
-	"github.com/kamontat/fthelper/metric/v4/src/constants"
-	"github.com/kamontat/fthelper/shared/caches"
-	"github.com/kamontat/fthelper/shared/commandline/commands"
-	"github.com/kamontat/fthelper/shared/errors"
-	"github.com/kamontat/fthelper/shared/schedulers"
+	"github.com/n0rmanc/fthelper/metric/v4/src/aggregators"
+	"github.com/n0rmanc/fthelper/metric/v4/src/connection"
+	"github.com/n0rmanc/fthelper/metric/v4/src/constants"
+	"github.com/n0rmanc/fthelper/shared/caches"
+	"github.com/n0rmanc/fthelper/shared/commandline/commands"
+	"github.com/n0rmanc/fthelper/shared/errors"
+	"github.com/n0rmanc/fthelper/shared/schedulers"
 )
 
 func WarmupJob(ctx context.Context, p *commands.ExecutorParameter, connectors []connection.Connector) *schedulers.Scheduler {

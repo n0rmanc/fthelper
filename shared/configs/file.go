@@ -1,9 +1,9 @@
 package configs
 
 import (
-	"github.com/kamontat/fthelper/shared/fs"
-	"github.com/kamontat/fthelper/shared/maps"
-	"github.com/kamontat/fthelper/shared/xtemplates"
+	"github.com/n0rmanc/fthelper/shared/fs"
+	"github.com/n0rmanc/fthelper/shared/maps"
+	"github.com/n0rmanc/fthelper/shared/xtemplates"
 )
 
 func LoadConfigFromFileSystem(input []fs.FileSystem, data maps.Mapper, strategy maps.Mapper) (maps.Mapper, error) {

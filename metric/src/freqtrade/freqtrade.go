@@ -3,9 +3,9 @@ package freqtrade
 import (
 	"fmt"
 
-	"github.com/kamontat/fthelper/metric/v4/src/connection"
-	"github.com/kamontat/fthelper/shared/datatype"
-	"github.com/kamontat/fthelper/shared/errors"
+	"github.com/n0rmanc/fthelper/metric/v4/src/connection"
+	"github.com/n0rmanc/fthelper/shared/datatype"
+	"github.com/n0rmanc/fthelper/shared/errors"
 )
 
 type Freqtrade struct {

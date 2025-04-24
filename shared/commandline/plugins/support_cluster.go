@@ -1,8 +1,8 @@
 package plugins
 
 import (
-	"github.com/kamontat/fthelper/shared/commandline/flags"
-	"github.com/kamontat/fthelper/shared/maps"
+	"github.com/n0rmanc/fthelper/shared/commandline/flags"
+	"github.com/n0rmanc/fthelper/shared/maps"
 )
 
 // SupportCluster will create clusters when --clusters is exist

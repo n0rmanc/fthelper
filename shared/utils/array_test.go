@@ -3,7 +3,7 @@ package utils_test
 import (
 	"testing"
 
-	"github.com/kamontat/fthelper/shared/utils"
+	"github.com/n0rmanc/fthelper/shared/utils"
 )
 
 func TestCloneArray(t *testing.T) {

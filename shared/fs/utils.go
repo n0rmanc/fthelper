@@ -3,7 +3,7 @@ package fs
 import (
 	"fmt"
 
-	"github.com/kamontat/fthelper/shared/maps"
+	"github.com/n0rmanc/fthelper/shared/maps"
 )
 
 func Copy(a, b FileSystem) error {

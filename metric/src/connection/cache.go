@@ -3,9 +3,9 @@ package connection
 import (
 	"fmt"
 
-	"github.com/kamontat/fthelper/shared/caches"
-	"github.com/kamontat/fthelper/shared/errors"
-	"github.com/kamontat/fthelper/shared/maps"
+	"github.com/n0rmanc/fthelper/shared/caches"
+	"github.com/n0rmanc/fthelper/shared/errors"
+	"github.com/n0rmanc/fthelper/shared/maps"
 )
 
 type cacheState string

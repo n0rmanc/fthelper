@@ -3,7 +3,7 @@ package caches
 import (
 	"time"
 
-	"github.com/kamontat/fthelper/shared/utils"
+	"github.com/n0rmanc/fthelper/shared/utils"
 )
 
 // parseDuration will panic if format error

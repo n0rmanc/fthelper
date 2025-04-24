@@ -4,14 +4,14 @@ import (
 	"context"
 	"os"
 
-	"github.com/kamontat/fthelper/metric/v4/src/cmd"
-	"github.com/kamontat/fthelper/metric/v4/src/connection"
-	"github.com/kamontat/fthelper/metric/v4/src/freqtrade"
-	"github.com/kamontat/fthelper/shared/caches"
-	"github.com/kamontat/fthelper/shared/commandline"
-	"github.com/kamontat/fthelper/shared/commandline/commands"
-	"github.com/kamontat/fthelper/shared/commandline/models"
-	"github.com/kamontat/fthelper/shared/commandline/plugins"
+	"github.com/n0rmanc/fthelper/metric/v4/src/cmd"
+	"github.com/n0rmanc/fthelper/metric/v4/src/connection"
+	"github.com/n0rmanc/fthelper/metric/v4/src/freqtrade"
+	"github.com/n0rmanc/fthelper/shared/caches"
+	"github.com/n0rmanc/fthelper/shared/commandline"
+	"github.com/n0rmanc/fthelper/shared/commandline/commands"
+	"github.com/n0rmanc/fthelper/shared/commandline/models"
+	"github.com/n0rmanc/fthelper/shared/commandline/plugins"
 )
 
 var (

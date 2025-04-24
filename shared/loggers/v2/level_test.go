@@ -3,8 +3,8 @@ package loggers_test
 import (
 	"testing"
 
-	loggers "github.com/kamontat/fthelper/shared/loggers/v2"
-	"github.com/kamontat/fthelper/shared/xtests"
+	loggers "github.com/n0rmanc/fthelper/shared/loggers/v2"
+	"github.com/n0rmanc/fthelper/shared/xtests"
 )
 
 func TestToLevel(t *testing.T) {

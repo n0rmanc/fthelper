@@ -3,8 +3,8 @@ package utils_test
 import (
 	"testing"
 
-	"github.com/kamontat/fthelper/shared/utils"
-	"github.com/kamontat/fthelper/shared/xtests"
+	"github.com/n0rmanc/fthelper/shared/utils"
+	"github.com/n0rmanc/fthelper/shared/xtests"
 )
 
 func TestRandom(t *testing.T) {

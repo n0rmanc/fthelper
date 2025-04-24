@@ -6,9 +6,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/kamontat/fthelper/shared/loggers"
-	"github.com/kamontat/fthelper/shared/runners"
-	"github.com/kamontat/fthelper/shared/xtests"
+	"github.com/n0rmanc/fthelper/shared/loggers"
+	"github.com/n0rmanc/fthelper/shared/runners"
+	"github.com/n0rmanc/fthelper/shared/xtests"
 )
 
 func ToBuffer(summary *runners.Summary) *bytes.Buffer {

@@ -1,6 +1,6 @@
 package freqtrade
 
-import "github.com/kamontat/fthelper/metric/v4/src/connection"
+import "github.com/n0rmanc/fthelper/metric/v4/src/connection"
 
 func Build(connections []*connection.Connection) (result []connection.Connector) {
 	result = make([]connection.Connector, 0)

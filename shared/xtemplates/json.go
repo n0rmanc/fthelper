@@ -3,7 +3,7 @@ package xtemplates
 import (
 	"text/template"
 
-	"github.com/kamontat/fthelper/shared/maps"
+	"github.com/n0rmanc/fthelper/shared/maps"
 )
 
 func json(m interface{}) (string, error) {

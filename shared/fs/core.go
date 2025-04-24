@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"path"
 
-	"github.com/kamontat/fthelper/shared/maps"
+	"github.com/n0rmanc/fthelper/shared/maps"
 )
 
 // {

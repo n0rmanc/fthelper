@@ -3,9 +3,9 @@ package configs_test
 import (
 	"testing"
 
-	"github.com/kamontat/fthelper/shared/configs"
-	"github.com/kamontat/fthelper/shared/maps"
-	"github.com/kamontat/fthelper/shared/xtests"
+	"github.com/n0rmanc/fthelper/shared/configs"
+	"github.com/n0rmanc/fthelper/shared/maps"
+	"github.com/n0rmanc/fthelper/shared/xtests"
 )
 
 // TODO: This test didn't works as I expected, Actually this throw error out because config builder will try to query data from config files/directories as well

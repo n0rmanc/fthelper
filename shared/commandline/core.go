@@ -1,13 +1,13 @@
 package commandline
 
 import (
-	"github.com/kamontat/fthelper/shared/caches"
-	"github.com/kamontat/fthelper/shared/commandline/commands"
-	"github.com/kamontat/fthelper/shared/commandline/flags"
-	"github.com/kamontat/fthelper/shared/commandline/hooks"
-	"github.com/kamontat/fthelper/shared/commandline/models"
-	"github.com/kamontat/fthelper/shared/commandline/plugins"
-	"github.com/kamontat/fthelper/shared/loggers"
+	"github.com/n0rmanc/fthelper/shared/caches"
+	"github.com/n0rmanc/fthelper/shared/commandline/commands"
+	"github.com/n0rmanc/fthelper/shared/commandline/flags"
+	"github.com/n0rmanc/fthelper/shared/commandline/hooks"
+	"github.com/n0rmanc/fthelper/shared/commandline/models"
+	"github.com/n0rmanc/fthelper/shared/commandline/plugins"
+	"github.com/n0rmanc/fthelper/shared/loggers"
 )
 
 func New(cache *caches.Service, metadata *models.Metadata) *cli {

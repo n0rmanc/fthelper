@@ -4,9 +4,9 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/kamontat/fthelper/shared/errors"
-	"github.com/kamontat/fthelper/shared/utils"
-	"github.com/kamontat/fthelper/shared/xtests"
+	"github.com/n0rmanc/fthelper/shared/errors"
+	"github.com/n0rmanc/fthelper/shared/utils"
+	"github.com/n0rmanc/fthelper/shared/xtests"
 )
 
 func Mock() error {

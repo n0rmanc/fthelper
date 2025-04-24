@@ -1,7 +1,7 @@
 package configs
 
 import (
-	"github.com/kamontat/fthelper/shared/maps"
+	"github.com/n0rmanc/fthelper/shared/maps"
 )
 
 // Return map of string, client will decide how to parse string data

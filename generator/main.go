@@ -3,12 +3,12 @@ package main
 import (
 	"os"
 
-	"github.com/kamontat/fthelper/generator/v4/src/generators"
-	"github.com/kamontat/fthelper/shared/caches"
-	"github.com/kamontat/fthelper/shared/commandline"
-	"github.com/kamontat/fthelper/shared/commandline/commands"
-	"github.com/kamontat/fthelper/shared/commandline/models"
-	"github.com/kamontat/fthelper/shared/commandline/plugins"
+	"github.com/n0rmanc/fthelper/generator/v4/src/generators"
+	"github.com/n0rmanc/fthelper/shared/caches"
+	"github.com/n0rmanc/fthelper/shared/commandline"
+	"github.com/n0rmanc/fthelper/shared/commandline/commands"
+	"github.com/n0rmanc/fthelper/shared/commandline/models"
+	"github.com/n0rmanc/fthelper/shared/commandline/plugins"
 )
 
 var (

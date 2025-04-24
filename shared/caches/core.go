@@ -3,7 +3,7 @@ package caches
 import (
 	"sync"
 
-	"github.com/kamontat/fthelper/shared/loggers"
+	"github.com/n0rmanc/fthelper/shared/loggers"
 )
 
 func New() *Service {

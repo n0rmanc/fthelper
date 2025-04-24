@@ -3,9 +3,9 @@ package configs_test
 import (
 	"testing"
 
-	"github.com/kamontat/fthelper/shared/configs"
-	"github.com/kamontat/fthelper/shared/maps"
-	"github.com/kamontat/fthelper/shared/xtests"
+	"github.com/n0rmanc/fthelper/shared/configs"
+	"github.com/n0rmanc/fthelper/shared/maps"
+	"github.com/n0rmanc/fthelper/shared/xtests"
 )
 
 func TestParseConfigFromEnv(t *testing.T) {
