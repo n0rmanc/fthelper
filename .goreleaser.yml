@@ -57,17 +57,17 @@ dockers:
     use: buildx
     dockerfile: generator/docker/Dockerfile.busybox
     image_templates:
-      - "ghcr.io/kamontat/ftgenerator:amd64"
-      - "ghcr.io/kamontat/ftgenerator:{{ .Tag }}-amd64"
+      - 'ghcr.io/n0rmanc/ftgenerator:amd64'
+      - 'ghcr.io/n0rmanc/ftgenerator:{{ .Tag }}-amd64'
     build_flag_templates:
-      - "--pull"
-      - "--label=org.opencontainers.image.title=ftgenerator"
-      - "--label=org.opencontainers.image.created={{ .Date }}"
-      - "--label=org.opencontainers.image.revision={{ .FullCommit }}"
-      - "--label=org.opencontainers.image.version={{ .Version }}"
-      - "--label=org.opencontainers.image.tag={{ .Tag }}"
-      - "--build-arg=FTH_SERVER__ARCH=amd64"
-      - "--platform=linux/amd64"
+      - '--pull'
+      - '--label=org.opencontainers.image.title=ftgenerator'
+      - '--label=org.opencontainers.image.created={{ .Date }}'
+      - '--label=org.opencontainers.image.revision={{ .FullCommit }}'
+      - '--label=org.opencontainers.image.version={{ .Version }}'
+      - '--label=org.opencontainers.image.tag={{ .Tag }}'
+      - '--build-arg=FTH_SERVER__ARCH=amd64'
+      - '--platform=linux/amd64'
     extra_files:
       - generator/.env.docker
       - generator/configs
@@ -79,17 +79,17 @@ dockers:
     use: buildx
     dockerfile: generator/docker/Dockerfile.stratch
     image_templates:
-      - "ghcr.io/kamontat/ftgenerator:amd64-stratch"
-      - "ghcr.io/kamontat/ftgenerator:{{ .Tag }}-amd64-stratch"
+      - 'ghcr.io/n0rmanc/ftgenerator:amd64-stratch'
+      - 'ghcr.io/n0rmanc/ftgenerator:{{ .Tag }}-amd64-stratch'
     build_flag_templates:
-      - "--pull"
-      - "--label=org.opencontainers.image.title=ftgenerator"
-      - "--label=org.opencontainers.image.created={{ .Date }}"
-      - "--label=org.opencontainers.image.revision={{ .FullCommit }}"
-      - "--label=org.opencontainers.image.version={{ .Version }}"
-      - "--label=org.opencontainers.image.tag={{ .Tag }}"
-      - "--build-arg=FTH_SERVER__ARCH=amd64"
-      - "--platform=linux/amd64"
+      - '--pull'
+      - '--label=org.opencontainers.image.title=ftgenerator'
+      - '--label=org.opencontainers.image.created={{ .Date }}'
+      - '--label=org.opencontainers.image.revision={{ .FullCommit }}'
+      - '--label=org.opencontainers.image.version={{ .Version }}'
+      - '--label=org.opencontainers.image.tag={{ .Tag }}'
+      - '--build-arg=FTH_SERVER__ARCH=amd64'
+      - '--platform=linux/amd64'
     extra_files:
       - generator/.env.docker
       - generator/configs
@@ -101,17 +101,17 @@ dockers:
     use: buildx
     dockerfile: generator/docker/Dockerfile.busybox
     image_templates:
-      - "ghcr.io/kamontat/ftgenerator:arm64"
-      - "ghcr.io/kamontat/ftgenerator:{{ .Tag }}-arm64"
+      - 'ghcr.io/n0rmanc/ftgenerator:arm64'
+      - 'ghcr.io/n0rmanc/ftgenerator:{{ .Tag }}-arm64'
     build_flag_templates:
-      - "--pull"
-      - "--label=org.opencontainers.image.title=ftgenerator"
-      - "--label=org.opencontainers.image.created={{ .Date }}"
-      - "--label=org.opencontainers.image.revision={{ .FullCommit }}"
-      - "--label=org.opencontainers.image.version={{ .Version }}"
-      - "--label=org.opencontainers.image.tag={{ .Tag }}"
-      - "--build-arg=FTH_SERVER__ARCH=arm64"
-      - "--platform=linux/arm64"
+      - '--pull'
+      - '--label=org.opencontainers.image.title=ftgenerator'
+      - '--label=org.opencontainers.image.created={{ .Date }}'
+      - '--label=org.opencontainers.image.revision={{ .FullCommit }}'
+      - '--label=org.opencontainers.image.version={{ .Version }}'
+      - '--label=org.opencontainers.image.tag={{ .Tag }}'
+      - '--build-arg=FTH_SERVER__ARCH=arm64'
+      - '--platform=linux/arm64'
     extra_files:
       - generator/.env.docker
       - generator/configs
@@ -123,17 +123,17 @@ dockers:
     use: buildx
     dockerfile: generator/docker/Dockerfile.stratch
     image_templates:
-      - "ghcr.io/kamontat/ftgenerator:arm64-stratch"
-      - "ghcr.io/kamontat/ftgenerator:{{ .Tag }}-arm64-stratch"
+      - 'ghcr.io/n0rmanc/ftgenerator:arm64-stratch'
+      - 'ghcr.io/n0rmanc/ftgenerator:{{ .Tag }}-arm64-stratch'
     build_flag_templates:
-      - "--pull"
-      - "--label=org.opencontainers.image.title=ftgenerator"
-      - "--label=org.opencontainers.image.created={{ .Date }}"
-      - "--label=org.opencontainers.image.revision={{ .FullCommit }}"
-      - "--label=org.opencontainers.image.version={{ .Version }}"
-      - "--label=org.opencontainers.image.tag={{ .Tag }}"
-      - "--build-arg=FTH_SERVER__ARCH=arm64"
-      - "--platform=linux/arm64"
+      - '--pull'
+      - '--label=org.opencontainers.image.title=ftgenerator'
+      - '--label=org.opencontainers.image.created={{ .Date }}'
+      - '--label=org.opencontainers.image.revision={{ .FullCommit }}'
+      - '--label=org.opencontainers.image.version={{ .Version }}'
+      - '--label=org.opencontainers.image.tag={{ .Tag }}'
+      - '--build-arg=FTH_SERVER__ARCH=arm64'
+      - '--platform=linux/arm64'
     extra_files:
       - generator/.env.docker
       - generator/configs
@@ -146,17 +146,17 @@ dockers:
     use: buildx
     dockerfile: generator/docker/Dockerfile.busybox
     image_templates:
-      - "ghcr.io/kamontat/ftgenerator:armv6"
-      - "ghcr.io/kamontat/ftgenerator:{{ .Tag }}-armv6"
+      - 'ghcr.io/n0rmanc/ftgenerator:armv6'
+      - 'ghcr.io/n0rmanc/ftgenerator:{{ .Tag }}-armv6'
     build_flag_templates:
-      - "--pull"
-      - "--label=org.opencontainers.image.title=ftgenerator"
-      - "--label=org.opencontainers.image.created={{ .Date }}"
-      - "--label=org.opencontainers.image.revision={{ .FullCommit }}"
-      - "--label=org.opencontainers.image.version={{ .Version }}"
-      - "--label=org.opencontainers.image.tag={{ .Tag }}"
-      - "--build-arg=FTH_SERVER__ARCH=armv6"
-      - "--platform=linux/arm/v6"
+      - '--pull'
+      - '--label=org.opencontainers.image.title=ftgenerator'
+      - '--label=org.opencontainers.image.created={{ .Date }}'
+      - '--label=org.opencontainers.image.revision={{ .FullCommit }}'
+      - '--label=org.opencontainers.image.version={{ .Version }}'
+      - '--label=org.opencontainers.image.tag={{ .Tag }}'
+      - '--build-arg=FTH_SERVER__ARCH=armv6'
+      - '--platform=linux/arm/v6'
     extra_files:
       - generator/.env.docker
       - generator/configs
@@ -169,17 +169,17 @@ dockers:
     use: buildx
     dockerfile: generator/docker/Dockerfile.stratch
     image_templates:
-      - "ghcr.io/kamontat/ftgenerator:armv6-stratch"
-      - "ghcr.io/kamontat/ftgenerator:{{ .Tag }}-armv6-stratch"
+      - 'ghcr.io/n0rmanc/ftgenerator:armv6-stratch'
+      - 'ghcr.io/n0rmanc/ftgenerator:{{ .Tag }}-armv6-stratch'
     build_flag_templates:
-      - "--pull"
-      - "--label=org.opencontainers.image.title=ftgenerator"
-      - "--label=org.opencontainers.image.created={{ .Date }}"
-      - "--label=org.opencontainers.image.revision={{ .FullCommit }}"
-      - "--label=org.opencontainers.image.version={{ .Version }}"
-      - "--label=org.opencontainers.image.tag={{ .Tag }}"
-      - "--build-arg=FTH_SERVER__ARCH=armv6"
-      - "--platform=linux/arm/v6"
+      - '--pull'
+      - '--label=org.opencontainers.image.title=ftgenerator'
+      - '--label=org.opencontainers.image.created={{ .Date }}'
+      - '--label=org.opencontainers.image.revision={{ .FullCommit }}'
+      - '--label=org.opencontainers.image.version={{ .Version }}'
+      - '--label=org.opencontainers.image.tag={{ .Tag }}'
+      - '--build-arg=FTH_SERVER__ARCH=armv6'
+      - '--platform=linux/arm/v6'
     extra_files:
       - generator/.env.docker
       - generator/configs
@@ -192,17 +192,17 @@ dockers:
     use: buildx
     dockerfile: generator/docker/Dockerfile.busybox
     image_templates:
-      - "ghcr.io/kamontat/ftgenerator:armv7"
-      - "ghcr.io/kamontat/ftgenerator:{{ .Tag }}-armv7"
+      - 'ghcr.io/n0rmanc/ftgenerator:armv7'
+      - 'ghcr.io/n0rmanc/ftgenerator:{{ .Tag }}-armv7'
     build_flag_templates:
-      - "--pull"
-      - "--label=org.opencontainers.image.title=ftgenerator"
-      - "--label=org.opencontainers.image.created={{ .Date }}"
-      - "--label=org.opencontainers.image.revision={{ .FullCommit }}"
-      - "--label=org.opencontainers.image.version={{ .Version }}"
-      - "--label=org.opencontainers.image.tag={{ .Tag }}"
-      - "--build-arg=FTH_SERVER__ARCH=armv7"
-      - "--platform=linux/arm/v7"
+      - '--pull'
+      - '--label=org.opencontainers.image.title=ftgenerator'
+      - '--label=org.opencontainers.image.created={{ .Date }}'
+      - '--label=org.opencontainers.image.revision={{ .FullCommit }}'
+      - '--label=org.opencontainers.image.version={{ .Version }}'
+      - '--label=org.opencontainers.image.tag={{ .Tag }}'
+      - '--build-arg=FTH_SERVER__ARCH=armv7'
+      - '--platform=linux/arm/v7'
     extra_files:
       - generator/.env.docker
       - generator/configs
@@ -215,17 +215,17 @@ dockers:
     use: buildx
     dockerfile: generator/docker/Dockerfile.stratch
     image_templates:
-      - "ghcr.io/kamontat/ftgenerator:armv7-stratch"
-      - "ghcr.io/kamontat/ftgenerator:{{ .Tag }}-armv7-stratch"
+      - 'ghcr.io/n0rmanc/ftgenerator:armv7-stratch'
+      - 'ghcr.io/n0rmanc/ftgenerator:{{ .Tag }}-armv7-stratch'
     build_flag_templates:
-      - "--pull"
-      - "--label=org.opencontainers.image.title=ftgenerator"
-      - "--label=org.opencontainers.image.created={{ .Date }}"
-      - "--label=org.opencontainers.image.revision={{ .FullCommit }}"
-      - "--label=org.opencontainers.image.version={{ .Version }}"
-      - "--label=org.opencontainers.image.tag={{ .Tag }}"
-      - "--build-arg=FTH_SERVER__ARCH=armv7"
-      - "--platform=linux/arm/v7"
+      - '--pull'
+      - '--label=org.opencontainers.image.title=ftgenerator'
+      - '--label=org.opencontainers.image.created={{ .Date }}'
+      - '--label=org.opencontainers.image.revision={{ .FullCommit }}'
+      - '--label=org.opencontainers.image.version={{ .Version }}'
+      - '--label=org.opencontainers.image.tag={{ .Tag }}'
+      - '--build-arg=FTH_SERVER__ARCH=armv7'
+      - '--platform=linux/arm/v7'
     extra_files:
       - generator/.env.docker
       - generator/configs
@@ -238,17 +238,17 @@ dockers:
     use: buildx
     dockerfile: metric/docker/Dockerfile.busybox
     image_templates:
-      - "ghcr.io/kamontat/ftmetric:amd64"
-      - "ghcr.io/kamontat/ftmetric:{{ .Tag }}-amd64"
+      - 'ghcr.io/n0rmanc/ftmetric:amd64'
+      - 'ghcr.io/n0rmanc/ftmetric:{{ .Tag }}-amd64'
     build_flag_templates:
-      - "--pull"
-      - "--label=org.opencontainers.image.title=ftmetric"
-      - "--label=org.opencontainers.image.created={{ .Date }}"
-      - "--label=org.opencontainers.image.revision={{ .FullCommit }}"
-      - "--label=org.opencontainers.image.version={{ .Version }}"
-      - "--label=org.opencontainers.image.tag={{ .Tag }}"
-      - "--build-arg=FTH_SERVER__ARCH=amd64"
-      - "--platform=linux/amd64"
+      - '--pull'
+      - '--label=org.opencontainers.image.title=ftmetric'
+      - '--label=org.opencontainers.image.created={{ .Date }}'
+      - '--label=org.opencontainers.image.revision={{ .FullCommit }}'
+      - '--label=org.opencontainers.image.version={{ .Version }}'
+      - '--label=org.opencontainers.image.tag={{ .Tag }}'
+      - '--build-arg=FTH_SERVER__ARCH=amd64'
+      - '--platform=linux/amd64'
     extra_files:
       - metric/.env.docker
       - metric/configs
@@ -260,17 +260,17 @@ dockers:
     use: buildx
     dockerfile: metric/docker/Dockerfile.stratch
     image_templates:
-      - "ghcr.io/kamontat/ftmetric:amd64-stratch"
-      - "ghcr.io/kamontat/ftmetric:{{ .Tag }}-amd64-stratch"
+      - 'ghcr.io/n0rmanc/ftmetric:amd64-stratch'
+      - 'ghcr.io/n0rmanc/ftmetric:{{ .Tag }}-amd64-stratch'
     build_flag_templates:
-      - "--pull"
-      - "--label=org.opencontainers.image.title=ftmetric"
-      - "--label=org.opencontainers.image.created={{ .Date }}"
-      - "--label=org.opencontainers.image.revision={{ .FullCommit }}"
-      - "--label=org.opencontainers.image.version={{ .Version }}"
-      - "--label=org.opencontainers.image.tag={{ .Tag }}"
-      - "--build-arg=FTH_SERVER__ARCH=amd64"
-      - "--platform=linux/amd64"
+      - '--pull'
+      - '--label=org.opencontainers.image.title=ftmetric'
+      - '--label=org.opencontainers.image.created={{ .Date }}'
+      - '--label=org.opencontainers.image.revision={{ .FullCommit }}'
+      - '--label=org.opencontainers.image.version={{ .Version }}'
+      - '--label=org.opencontainers.image.tag={{ .Tag }}'
+      - '--build-arg=FTH_SERVER__ARCH=amd64'
+      - '--platform=linux/amd64'
     extra_files:
       - metric/.env.docker
       - metric/configs
@@ -282,17 +282,17 @@ dockers:
     use: buildx
     dockerfile: metric/docker/Dockerfile.busybox
     image_templates:
-      - "ghcr.io/kamontat/ftmetric:arm64"
-      - "ghcr.io/kamontat/ftmetric:{{ .Tag }}-arm64"
+      - 'ghcr.io/n0rmanc/ftmetric:arm64'
+      - 'ghcr.io/n0rmanc/ftmetric:{{ .Tag }}-arm64'
     build_flag_templates:
-      - "--pull"
-      - "--label=org.opencontainers.image.title=ftmetric"
-      - "--label=org.opencontainers.image.created={{ .Date }}"
-      - "--label=org.opencontainers.image.revision={{ .FullCommit }}"
-      - "--label=org.opencontainers.image.version={{ .Version }}"
-      - "--label=org.opencontainers.image.tag={{ .Tag }}"
-      - "--build-arg=FTH_SERVER__ARCH=arm64"
-      - "--platform=linux/arm64"
+      - '--pull'
+      - '--label=org.opencontainers.image.title=ftmetric'
+      - '--label=org.opencontainers.image.created={{ .Date }}'
+      - '--label=org.opencontainers.image.revision={{ .FullCommit }}'
+      - '--label=org.opencontainers.image.version={{ .Version }}'
+      - '--label=org.opencontainers.image.tag={{ .Tag }}'
+      - '--build-arg=FTH_SERVER__ARCH=arm64'
+      - '--platform=linux/arm64'
     extra_files:
       - metric/.env.docker
       - metric/configs
@@ -304,17 +304,17 @@ dockers:
     use: buildx
     dockerfile: metric/docker/Dockerfile.stratch
     image_templates:
-      - "ghcr.io/kamontat/ftmetric:arm64-stratch"
-      - "ghcr.io/kamontat/ftmetric:{{ .Tag }}-arm64-stratch"
+      - 'ghcr.io/n0rmanc/ftmetric:arm64-stratch'
+      - 'ghcr.io/n0rmanc/ftmetric:{{ .Tag }}-arm64-stratch'
     build_flag_templates:
-      - "--pull"
-      - "--label=org.opencontainers.image.title=ftmetric"
-      - "--label=org.opencontainers.image.created={{ .Date }}"
-      - "--label=org.opencontainers.image.revision={{ .FullCommit }}"
-      - "--label=org.opencontainers.image.version={{ .Version }}"
-      - "--label=org.opencontainers.image.tag={{ .Tag }}"
-      - "--build-arg=FTH_SERVER__ARCH=arm64"
-      - "--platform=linux/arm64"
+      - '--pull'
+      - '--label=org.opencontainers.image.title=ftmetric'
+      - '--label=org.opencontainers.image.created={{ .Date }}'
+      - '--label=org.opencontainers.image.revision={{ .FullCommit }}'
+      - '--label=org.opencontainers.image.version={{ .Version }}'
+      - '--label=org.opencontainers.image.tag={{ .Tag }}'
+      - '--build-arg=FTH_SERVER__ARCH=arm64'
+      - '--platform=linux/arm64'
     extra_files:
       - metric/.env.docker
       - metric/configs
@@ -327,17 +327,17 @@ dockers:
     use: buildx
     dockerfile: metric/docker/Dockerfile.busybox
     image_templates:
-      - "ghcr.io/kamontat/ftmetric:armv6"
-      - "ghcr.io/kamontat/ftmetric:{{ .Tag }}-armv6"
+      - 'ghcr.io/n0rmanc/ftmetric:armv6'
+      - 'ghcr.io/n0rmanc/ftmetric:{{ .Tag }}-armv6'
     build_flag_templates:
-      - "--pull"
-      - "--label=org.opencontainers.image.title=ftmetric"
-      - "--label=org.opencontainers.image.created={{ .Date }}"
-      - "--label=org.opencontainers.image.revision={{ .FullCommit }}"
-      - "--label=org.opencontainers.image.version={{ .Version }}"
-      - "--label=org.opencontainers.image.tag={{ .Tag }}"
-      - "--build-arg=FTH_SERVER__ARCH=armv6"
-      - "--platform=linux/arm/v6"
+      - '--pull'
+      - '--label=org.opencontainers.image.title=ftmetric'
+      - '--label=org.opencontainers.image.created={{ .Date }}'
+      - '--label=org.opencontainers.image.revision={{ .FullCommit }}'
+      - '--label=org.opencontainers.image.version={{ .Version }}'
+      - '--label=org.opencontainers.image.tag={{ .Tag }}'
+      - '--build-arg=FTH_SERVER__ARCH=armv6'
+      - '--platform=linux/arm/v6'
     extra_files:
       - metric/.env.docker
       - metric/configs
@@ -350,17 +350,17 @@ dockers:
     use: buildx
     dockerfile: metric/docker/Dockerfile.stratch
     image_templates:
-      - "ghcr.io/kamontat/ftmetric:armv6-stratch"
-      - "ghcr.io/kamontat/ftmetric:{{ .Tag }}-armv6-stratch"
+      - 'ghcr.io/n0rmanc/ftmetric:armv6-stratch'
+      - 'ghcr.io/n0rmanc/ftmetric:{{ .Tag }}-armv6-stratch'
     build_flag_templates:
-      - "--pull"
-      - "--label=org.opencontainers.image.title=ftmetric"
-      - "--label=org.opencontainers.image.created={{ .Date }}"
-      - "--label=org.opencontainers.image.revision={{ .FullCommit }}"
-      - "--label=org.opencontainers.image.version={{ .Version }}"
-      - "--label=org.opencontainers.image.tag={{ .Tag }}"
-      - "--build-arg=FTH_SERVER__ARCH=armv6"
-      - "--platform=linux/arm/v6"
+      - '--pull'
+      - '--label=org.opencontainers.image.title=ftmetric'
+      - '--label=org.opencontainers.image.created={{ .Date }}'
+      - '--label=org.opencontainers.image.revision={{ .FullCommit }}'
+      - '--label=org.opencontainers.image.version={{ .Version }}'
+      - '--label=org.opencontainers.image.tag={{ .Tag }}'
+      - '--build-arg=FTH_SERVER__ARCH=armv6'
+      - '--platform=linux/arm/v6'
     extra_files:
       - metric/.env.docker
       - metric/configs
@@ -373,17 +373,17 @@ dockers:
     use: buildx
     dockerfile: metric/docker/Dockerfile.busybox
     image_templates:
-      - "ghcr.io/kamontat/ftmetric:armv7"
-      - "ghcr.io/kamontat/ftmetric:{{ .Tag }}-armv7"
+      - 'ghcr.io/n0rmanc/ftmetric:armv7'
+      - 'ghcr.io/n0rmanc/ftmetric:{{ .Tag }}-armv7'
     build_flag_templates:
-      - "--pull"
-      - "--label=org.opencontainers.image.title=ftmetric"
-      - "--label=org.opencontainers.image.created={{ .Date }}"
-      - "--label=org.opencontainers.image.revision={{ .FullCommit }}"
-      - "--label=org.opencontainers.image.version={{ .Version }}"
-      - "--label=org.opencontainers.image.tag={{ .Tag }}"
-      - "--build-arg=FTH_SERVER__ARCH=armv7"
-      - "--platform=linux/arm/v7"
+      - '--pull'
+      - '--label=org.opencontainers.image.title=ftmetric'
+      - '--label=org.opencontainers.image.created={{ .Date }}'
+      - '--label=org.opencontainers.image.revision={{ .FullCommit }}'
+      - '--label=org.opencontainers.image.version={{ .Version }}'
+      - '--label=org.opencontainers.image.tag={{ .Tag }}'
+      - '--build-arg=FTH_SERVER__ARCH=armv7'
+      - '--platform=linux/arm/v7'
     extra_files:
       - metric/.env.docker
       - metric/configs
@@ -396,86 +396,86 @@ dockers:
     use: buildx
     dockerfile: metric/docker/Dockerfile.stratch
     image_templates:
-      - "ghcr.io/kamontat/ftmetric:armv7-stratch"
-      - "ghcr.io/kamontat/ftmetric:{{ .Tag }}-armv7-stratch"
+      - 'ghcr.io/n0rmanc/ftmetric:armv7-stratch'
+      - 'ghcr.io/n0rmanc/ftmetric:{{ .Tag }}-armv7-stratch'
     build_flag_templates:
-      - "--pull"
-      - "--label=org.opencontainers.image.title=ftmetric"
-      - "--label=org.opencontainers.image.created={{ .Date }}"
-      - "--label=org.opencontainers.image.revision={{ .FullCommit }}"
-      - "--label=org.opencontainers.image.version={{ .Version }}"
-      - "--label=org.opencontainers.image.tag={{ .Tag }}"
-      - "--build-arg=FTH_SERVER__ARCH=armv7"
-      - "--platform=linux/arm/v7"
+      - '--pull'
+      - '--label=org.opencontainers.image.title=ftmetric'
+      - '--label=org.opencontainers.image.created={{ .Date }}'
+      - '--label=org.opencontainers.image.revision={{ .FullCommit }}'
+      - '--label=org.opencontainers.image.version={{ .Version }}'
+      - '--label=org.opencontainers.image.tag={{ .Tag }}'
+      - '--build-arg=FTH_SERVER__ARCH=armv7'
+      - '--platform=linux/arm/v7'
     extra_files:
       - metric/.env.docker
       - metric/configs
 
 docker_manifests:
-  - name_template: ghcr.io/kamontat/ftgenerator:{{ .Tag }}
+  - name_template: ghcr.io/n0rmanc/ftgenerator:{{ .Tag }}
     image_templates:
-      - ghcr.io/kamontat/ftgenerator:{{ .Tag }}-amd64
-      - ghcr.io/kamontat/ftgenerator:{{ .Tag }}-arm64
-      - ghcr.io/kamontat/ftgenerator:{{ .Tag }}-armv6
-      - ghcr.io/kamontat/ftgenerator:{{ .Tag }}-armv7
-  - name_template: ghcr.io/kamontat/ftgenerator:latest
+      - ghcr.io/n0rmanc/ftgenerator:{{ .Tag }}-amd64
+      - ghcr.io/n0rmanc/ftgenerator:{{ .Tag }}-arm64
+      - ghcr.io/n0rmanc/ftgenerator:{{ .Tag }}-armv6
+      - ghcr.io/n0rmanc/ftgenerator:{{ .Tag }}-armv7
+  - name_template: ghcr.io/n0rmanc/ftgenerator:latest
     image_templates:
-      - ghcr.io/kamontat/ftgenerator:amd64
-      - ghcr.io/kamontat/ftgenerator:arm64
-      - ghcr.io/kamontat/ftgenerator:armv6
-      - ghcr.io/kamontat/ftgenerator:armv7
-  - name_template: ghcr.io/kamontat/ftgenerator:{{ .Tag }}-stratch
+      - ghcr.io/n0rmanc/ftgenerator:amd64
+      - ghcr.io/n0rmanc/ftgenerator:arm64
+      - ghcr.io/n0rmanc/ftgenerator:armv6
+      - ghcr.io/n0rmanc/ftgenerator:armv7
+  - name_template: ghcr.io/n0rmanc/ftgenerator:{{ .Tag }}-stratch
     image_templates:
-      - ghcr.io/kamontat/ftgenerator:{{ .Tag }}-amd64-stratch
-      - ghcr.io/kamontat/ftgenerator:{{ .Tag }}-arm64-stratch
-      - ghcr.io/kamontat/ftgenerator:{{ .Tag }}-armv6-stratch
-      - ghcr.io/kamontat/ftgenerator:{{ .Tag }}-armv7-stratch
-  - name_template: ghcr.io/kamontat/ftgenerator:stratch
+      - ghcr.io/n0rmanc/ftgenerator:{{ .Tag }}-amd64-stratch
+      - ghcr.io/n0rmanc/ftgenerator:{{ .Tag }}-arm64-stratch
+      - ghcr.io/n0rmanc/ftgenerator:{{ .Tag }}-armv6-stratch
+      - ghcr.io/n0rmanc/ftgenerator:{{ .Tag }}-armv7-stratch
+  - name_template: ghcr.io/n0rmanc/ftgenerator:stratch
     image_templates:
-      - ghcr.io/kamontat/ftgenerator:amd64-stratch
-      - ghcr.io/kamontat/ftgenerator:arm64-stratch
-      - ghcr.io/kamontat/ftgenerator:armv6-stratch
-      - ghcr.io/kamontat/ftgenerator:armv7-stratch
+      - ghcr.io/n0rmanc/ftgenerator:amd64-stratch
+      - ghcr.io/n0rmanc/ftgenerator:arm64-stratch
+      - ghcr.io/n0rmanc/ftgenerator:armv6-stratch
+      - ghcr.io/n0rmanc/ftgenerator:armv7-stratch
 
-  - name_template: ghcr.io/kamontat/ftmetric:{{ .Tag }}
+  - name_template: ghcr.io/n0rmanc/ftmetric:{{ .Tag }}
     image_templates:
-      - ghcr.io/kamontat/ftmetric:{{ .Tag }}-amd64
-      - ghcr.io/kamontat/ftmetric:{{ .Tag }}-arm64
-      - ghcr.io/kamontat/ftmetric:{{ .Tag }}-armv6
-      - ghcr.io/kamontat/ftmetric:{{ .Tag }}-armv7
-  - name_template: ghcr.io/kamontat/ftmetric:latest
+      - ghcr.io/n0rmanc/ftmetric:{{ .Tag }}-amd64
+      - ghcr.io/n0rmanc/ftmetric:{{ .Tag }}-arm64
+      - ghcr.io/n0rmanc/ftmetric:{{ .Tag }}-armv6
+      - ghcr.io/n0rmanc/ftmetric:{{ .Tag }}-armv7
+  - name_template: ghcr.io/n0rmanc/ftmetric:latest
     image_templates:
-      - ghcr.io/kamontat/ftmetric:amd64
-      - ghcr.io/kamontat/ftmetric:arm64
-      - ghcr.io/kamontat/ftmetric:armv6
-      - ghcr.io/kamontat/ftmetric:armv7
-  - name_template: ghcr.io/kamontat/ftmetric:{{ .Tag }}-stratch
+      - ghcr.io/n0rmanc/ftmetric:amd64
+      - ghcr.io/n0rmanc/ftmetric:arm64
+      - ghcr.io/n0rmanc/ftmetric:armv6
+      - ghcr.io/n0rmanc/ftmetric:armv7
+  - name_template: ghcr.io/n0rmanc/ftmetric:{{ .Tag }}-stratch
     image_templates:
-      - ghcr.io/kamontat/ftmetric:{{ .Tag }}-amd64-stratch
-      - ghcr.io/kamontat/ftmetric:{{ .Tag }}-arm64-stratch
-      - ghcr.io/kamontat/ftmetric:{{ .Tag }}-armv6-stratch
-      - ghcr.io/kamontat/ftmetric:{{ .Tag }}-armv7-stratch
-  - name_template: ghcr.io/kamontat/ftmetric:stratch
+      - ghcr.io/n0rmanc/ftmetric:{{ .Tag }}-amd64-stratch
+      - ghcr.io/n0rmanc/ftmetric:{{ .Tag }}-arm64-stratch
+      - ghcr.io/n0rmanc/ftmetric:{{ .Tag }}-armv6-stratch
+      - ghcr.io/n0rmanc/ftmetric:{{ .Tag }}-armv7-stratch
+  - name_template: ghcr.io/n0rmanc/ftmetric:stratch
     image_templates:
-      - ghcr.io/kamontat/ftmetric:amd64-stratch
-      - ghcr.io/kamontat/ftmetric:arm64-stratch
-      - ghcr.io/kamontat/ftmetric:armv6-stratch
-      - ghcr.io/kamontat/ftmetric:armv7-stratch
+      - ghcr.io/n0rmanc/ftmetric:amd64-stratch
+      - ghcr.io/n0rmanc/ftmetric:arm64-stratch
+      - ghcr.io/n0rmanc/ftmetric:armv6-stratch
+      - ghcr.io/n0rmanc/ftmetric:armv7-stratch
 
 release:
   draft: false
   prerelease: auto
-  name_template: "{{ .Tag }}"
+  name_template: '{{ .Tag }}'
 
 checksum:
-  name_template: "checksums.txt"
+  name_template: 'checksums.txt'
 
 snapshot:
-  name_template: "{{ .Tag }}-snapshot"
+  name_template: '{{ .Tag }}-snapshot'
 
 changelog:
   sort: asc
   filters:
     exclude:
-      - "^chore"
-      - "^refac"
+      - '^chore'
+      - '^refac'
