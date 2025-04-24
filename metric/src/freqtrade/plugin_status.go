@@ -23,7 +23,7 @@ type status struct {
 	State         string // stopped | stop_buy | running | unknown
 	RunMode       string // dry_run | live | unknown
 	Strategy      string
-	MaxOpenTrades int `json:"max_open_trades"`
+	MaxOpenTrades float64 `json:"max_open_trades"`
 }
 
 func (s *status) StateStr() string {
